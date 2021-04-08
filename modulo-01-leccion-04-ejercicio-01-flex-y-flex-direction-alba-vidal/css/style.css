@@ -1,0 +1,20 @@
+/* Si las cajas no tienen un Alto y Ancho informado se colocan por defecto en HORIZONTAL*/
+
+/* Si las cajas sí tienen un Alto y Ancho informado se colocan por defecto en VERTICAL*/
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(192, 217, 255);
+  /* con display:flex; se colocan en vertical*/
+  display: flex;
+}
+
+.item {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  background-color: rgb(255, 227, 255);
+  font-family: "Courier New", Courier, monospace;
+  /* width: 50px;
+  height: 50px; */
+}

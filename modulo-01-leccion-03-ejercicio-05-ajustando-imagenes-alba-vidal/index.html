@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajustando imágenes</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Ajustando imágenes</h1>
+    <h2>EJERCICIO 5</h2>
+    <p>Hacer un div de 100x100px usando las propiedades width y height, incluir dentro una imagen de 100x100px y probar:</p>
+    <ul>
+      <li>Añadir un padding de 10px</li>
+      <li>Añadir un borde de 5px</li>
+      <li>Cambiar el modelo de caja a border-box y explica qué ha pasado</li>
+      <li>Centrar la caja utilizando el valor auto en los margenes horizontales.</li>
+    </ul>
+
+  </header>
+
+  <main>
+    <div class="box">
+      <img src="./assets/johnny5_100x100.jpeg" alt="Short Circuit">
+    </div>
+  </main>
+
+
+  <!-- COMENTARIOS: PARA HACER ESTE EJERCICIO NO RESETEAR EL ESTILO
+
+    1) Al añadir el padding la imagen mantiene el tamaño y la caja ahora es de 120x120
+    2) Al añadir el padding la caja mide 130x130
+    3) Al pasar a border-box la caja mide 100x100, la imagen 100x100 pero se posiciona en la caja en el top-left respetando el padding-left de 5px y el padding-top de 5px
+     -->
+
+
+</body>
+
+</html>

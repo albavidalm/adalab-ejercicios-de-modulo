@@ -1,0 +1,16 @@
+/* Con flex-wrap: wrap; hemos conseguido que los bloques se vayan poniendo uno detrás de otro y que al cambiar el tamaño del navegador se vayan adaptando a este movimiento */
+
+.container {
+  background-color: rgb(192, 217, 255);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  background-color: rgb(255, 227, 255);
+  font-family: "Courier New", Courier, monospace;
+  width: 200px;
+  height: 100px;
+}

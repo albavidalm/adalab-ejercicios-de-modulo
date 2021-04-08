@@ -1,0 +1,62 @@
+:root {
+  --color-link: red;
+  --color-title: blue;
+  --padding-important: 20px;
+  --general-margin: 0;
+  /*Escribe aquí tu código*/
+}
+
+body {
+  margin: var(--general-margin);
+  /* margin: 0; */
+}
+
+header {
+  background-color: #eaeaea;
+  padding: var(--padding-important);
+  /* padding: 20px; */
+}
+
+main {
+  padding: var(--padding-important);
+  /* padding: 20px; */
+}
+
+p {
+  width: 50%;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  color: var(--color-title);
+  /* color: grey; */
+  margin: var(--general-margin);
+  /* margin: 0; */
+}
+
+.subtitle {
+  color: var(--color-title);
+  /* color: grey; */
+  margin: var(--general-margin);
+  /* margin: 0; */
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: var(--color-link);
+  /* color: green; */
+  text-decoration: none;
+}
+
+p a {
+  color: var(--color-link);
+  /* color: green; */
+}

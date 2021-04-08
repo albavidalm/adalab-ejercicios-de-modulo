@@ -1,0 +1,16 @@
+.main-menu {
+  height: 100px;
+  background-color: rgb(192, 217, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-menu-link {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  text-decoration: none;
+  color: purple;
+  line-height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
