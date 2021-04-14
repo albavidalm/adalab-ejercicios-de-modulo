@@ -1,0 +1,55 @@
+html {
+  font-size: 16px;
+}
+/* .smiley {
+  width: 6.25rem;
+  height: 6.25rem;
+  line-height: 6.25rem;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 3.125rem;
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+} */
+
+/* CARA 50X50 */
+/* .smiley {
+  width: 3.125rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 1.563rem; LA MITAD DE 50
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+} */
+
+/* CARA 200X200 */
+.smiley {
+  width: 12.5rem;
+  height: 12.5rem;
+  line-height: 12.5rem;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 6.25rem;
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}

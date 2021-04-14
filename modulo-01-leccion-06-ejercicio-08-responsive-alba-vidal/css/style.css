@@ -1,0 +1,22 @@
+.page {
+  width: 100vh;
+  height: 100vh;
+}
+
+@media screen and (max-width: 480px) {
+  .page {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .page {
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+    background-color: green;
+  }
+}

@@ -1,0 +1,13 @@
+.box-enlace {
+  display: flex;
+}
+
+.enlace-box {
+  justify-content: flex-start;
+  display: inline-block;
+}
+
+.title-box {
+  justify-content: flex-end;
+  display: flex;
+}
