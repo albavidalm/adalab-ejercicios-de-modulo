@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Nesting with BEM</title>
+</head>
+
+<body>
+
+  <p>Utilizando el operador "&" hay que reescribir el siguiente código con Sass. El reto está en escribir la palabra card una sola vez.</p>
+
+  <table>
+    <caption>De CSS a SCSS</caption>
+    <thead>
+      <tr>
+        <th>CSS</th>
+        <th>SCSS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <p>
+            .card {<br>
+            &nbsp;&nbsp;width: 100px;<br>
+            &nbsp;&nbsp;height: 100px;<br>
+            &nbsp;&nbsp;margin: 10px;<br>
+            }<br>
+            .card:hover {<br>
+            &nbsp;&nbsp;box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);<br>
+            }<br>
+            .card--dark {<br>
+            &nbsp;&nbsp;background-color: #000;<br>
+            &nbsp;&nbsp;color: #fff;<br>
+            }<br>
+            .card--light {<br>
+            &nbsp;&nbsp;background-color: #fff;<br>
+            &nbsp;&nbsp;color: #000;<br>
+            }<br>
+          </p>
+        </td>
+
+        <td>
+          <p>
+            .card{<br>
+            &nbsp;&nbsp;width: 100px;<br>
+            &nbsp;&nbsp;height: 100px;<br>
+            &nbsp;&nbsp;margin: 10px;<br>
+            &nbsp;&nbsp;&:hover {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);<br>
+            &nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;&--dark {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: #000;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: #fff;<br>
+            &nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;&--light {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: #fff;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: #000;<br>
+            &nbsp;&nbsp;}<br>
+            }<br>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+</body>
+
+</html>
