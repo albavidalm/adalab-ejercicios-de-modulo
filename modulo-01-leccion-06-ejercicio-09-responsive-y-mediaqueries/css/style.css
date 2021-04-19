@@ -1,0 +1,40 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+  background-color: lightgrey;
+}
+
+.menu {
+  height: 100%;
+}
+
+.menu__list {
+  background-color: lime;
+}
+
+.menu__list a {
+  text-decoration: none;
+}
+
+.main {
+  background-color: yellow;
+}
+
+.aside {
+  background-color: grey;
+}
+
+/* --- TABLET ---*/
+
+/* @media all and (min-width: 480px) {
+  .body {
+    display: flex;
+  }
+
+  .menu a {
+    width: 20vw;
+    height: 25%;
+  }
+} */
