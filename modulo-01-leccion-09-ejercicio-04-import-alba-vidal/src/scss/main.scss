@@ -10,3 +10,8 @@
 @import "layout/bloc01";
 @import "layout/bloc02";
 @import "layout/header";
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
