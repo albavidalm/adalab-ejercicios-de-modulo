@@ -7,14 +7,14 @@ $color-secondary: #999;
 
 // responsive mixin
 @mixin differentscreens() {
-  background-color: cyan;
+  background-color: #f3d3d4;
   height: 75px;
   @media all and (min-width: 768px) {
     height: 100px;
-    background-color: red;
+    background-color: #b4748e;
   }
   @media all and (min-width: 1280px) {
     height: 110px;
-    background-color: green;
+    background-color: #a47c7c;
   }
 }
