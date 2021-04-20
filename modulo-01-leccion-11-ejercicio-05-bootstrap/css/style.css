@@ -1,0 +1,36 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+.container-fluid {
+  height: 100vh;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+
+.row {
+  color: white;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.header {
+  background-color: #d2b1a9;
+  height: 20vh;
+}
+.menu {
+  background-color: #afb8bd;
+  height: 60vh;
+}
+.content {
+  background-color: #968993;
+  height: 60vh;
+}
+.footer {
+  background-color: #8893ac;
+  height: 20vh;
+}
