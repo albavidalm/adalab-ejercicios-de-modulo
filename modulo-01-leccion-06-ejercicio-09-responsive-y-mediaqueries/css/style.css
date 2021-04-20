@@ -6,19 +6,16 @@
   background-color: lightgrey;
 }
 
-.menu {
-  height: 100%;
-}
-
 .menu__list {
   background-color: lime;
+  list-style-type: none;
 }
 
 .menu__list a {
   text-decoration: none;
 }
 
-.main {
+.main__content {
   background-color: yellow;
 }
 
@@ -26,15 +23,21 @@
   background-color: grey;
 }
 
-/* --- TABLET ---*/
+/*--- TABLET ---*/
 
-/* @media all and (min-width: 480px) {
-  .body {
+@media all and (min-width: 480px) {
+  .main {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 
-  .menu a {
-    width: 20vw;
-    height: 25%;
+  .menu {
+    width: 25%;
+    padding-right: 20px;
   }
-} */
+
+  .main__content {
+    width: 75%;
+  }
+}

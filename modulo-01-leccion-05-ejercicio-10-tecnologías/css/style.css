@@ -1,0 +1,30 @@
+* {
+  font-family: sans-serif;
+}
+
+.title:hover {
+  cursor: help;
+  text-decoration: underline;
+}
+
+.tooltip {
+  /* visibility: hidden; los elementos están transparentes */
+  display: none; /*no aparecen en el html*/
+}
+
+.language {
+  position: relative;
+}
+
+.language:hover .tooltip {
+  display: block;
+  position: absolute; /*para sacarlo del flujo de caja*/
+  top: -1rem;
+  left: 100px;
+  background-color: lightgrey;
+  border: 1px solid lightblue;
+  width: 400px;
+  height: 200px;
+  z-index: 1;
+}
+/* O metemos el párrafo dentro de los titles o cuando nos posemos sobre <li> entonces mostramos el tooltip*/
