@@ -7,17 +7,16 @@ body {
 }
 .container-fluid {
   height: 100vh;
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
 }
 
 .row {
   color: white;
   text-align: center;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  /* display: flex; */
 }
+
 .header {
   background-color: #d2b1a9;
   height: 20vh;
