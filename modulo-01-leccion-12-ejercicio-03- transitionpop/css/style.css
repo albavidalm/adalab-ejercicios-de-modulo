@@ -1,0 +1,26 @@
+.page {
+  background-color: rgb(169, 216, 216);
+  height: 100vh;
+  width: 100%;
+}
+
+.popup {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  bottom: -50vh;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+  background-color: lightcoral;
+}
+
+.page:hover .popup {
+  transform: translate(0, -100vh);
+  transition: transform 1s;
+}
