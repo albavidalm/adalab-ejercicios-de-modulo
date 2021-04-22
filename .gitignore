@@ -86,3 +86,9 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# PDF files
+*.pdf
+
+#vscode files
+.vscode

@@ -2,7 +2,10 @@
 
 .container {
   background-color: rgb(192, 217, 255);
+  width: 100vw;
+  height: 500px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
