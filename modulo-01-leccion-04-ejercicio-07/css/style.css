@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-container {
+  width: 100vw;
+  height: 100%;
+
+  padding: 5px;
+  display: flex;
+}
+
+.contact {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.foto {
+  width: 120px;
+  height: 120px;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.details {
+  padding-left: 10px;
+  width: 80%;
+}
+.center-name {
+  font-size: 20px;
+  color: rgb(87, 87, 87);
+}
+
+.specialty {
+  font-size: 16px;
+  color: grey;
+  padding-bottom: 10px;
+}
+
+.but {
+  font-size: 12px;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+}
+
+.date {
+  background-color: lightgrey;
+  border: none;
+  color: white;
+}
+
+.cost {
+  background-color: white;
+  border: 3px solid lightgrey;
+  color: lightgrey;
+}
+
+.comments {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.opinions {
+  height: 100%;
+  text-align: right;
+}
+
+.opinions p {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.opinions a {
+  text-decoration: none;
+  color: lightgrey;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.rates {
+  height: 100%;
+}
+
+.points {
+  background-color: lightgrey;
+  height: 35px;
+  width: 35px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.star {
+  width: 30px;
+  height: 30px;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  padding-top: 10px;
+}
