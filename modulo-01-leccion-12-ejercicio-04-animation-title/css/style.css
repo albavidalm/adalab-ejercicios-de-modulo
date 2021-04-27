@@ -32,3 +32,32 @@
     transform: translate(0, 70vh);
   }
 }
+.scroll-button {
+  display: inline-block; /*El superior está centrado por el Flex del hero, Centra al inferior*/
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  border-radius: 50%;
+  line-height: 50px;
+  -webkit-box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.48);
+  box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.48);
+  transition: all 0.5s ease 0.1s;
+  animation-name: updown;
+  animation-duration: infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes updown {
+  from {
+    transform: translate(0, -15px);
+  }
+  to {
+    transform: translate(0, 15px);
+  }
+}
+
+.scroll-button:hover {
+  -webkit-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
