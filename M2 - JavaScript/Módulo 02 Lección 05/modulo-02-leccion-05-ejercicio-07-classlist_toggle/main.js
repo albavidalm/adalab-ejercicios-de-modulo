@@ -1,13 +1,17 @@
 "use strict";
 
-const input = document.querySelector(".my-input");
-const wrote = document.querySelector(".paragraph");
+const button = document.querySelector(".js-button");
 
-function handleTakeInfo(event) {
-  //console.log(input);
-  const letter = event.currentTarget.value;
-  //console.log(letter);
-  wrote.innerHTML = letter;
-}
+/*button.addEventListener("click", function changeColorButton() {
+  if (button.click) {
+    button.classList.add("palette1");
+    button.classList.remove("palette2");
+  } else {
+    button.classList.add("palette2");
+    button.classList.remove("palette1");
+  }
+});*/
 
-input.addEventListener("keypress", handleTakeInfo);
+button.addEventListener("click", function changeColorButton() {
+  button.classList.toggle("palette1");
+});

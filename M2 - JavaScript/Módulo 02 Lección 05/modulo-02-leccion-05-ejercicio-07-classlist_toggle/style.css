@@ -1,7 +1,9 @@
-.red {
-  background-color: red;
+.palette1 {
+  background-color: pink;
+  color: red;
 }
 
-.purple {
-  background-color: purple;
+.palette2 {
+  background-color: teal;
+  color: white;
 }
