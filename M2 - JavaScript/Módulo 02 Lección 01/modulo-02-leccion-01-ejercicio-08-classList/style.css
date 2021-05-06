@@ -1,0 +1,17 @@
+.button {
+  width: 100px;
+  height: 100px;
+  border: 3px solid teal;
+  margin: 20px;
+  padding: 20px;
+  background-color: thistle;
+  text-align: center;
+  line-height: 100px;
+  color: teal;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.disabled {
+  opacity: 0.5;
+}
