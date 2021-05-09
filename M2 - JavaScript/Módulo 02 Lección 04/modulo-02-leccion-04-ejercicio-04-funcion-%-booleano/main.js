@@ -7,7 +7,4 @@ function oddEven(number) {
     return false;
   }
 }
-console.log(oddEven(3));
-
-function getEl('.btn');
-const 
+console.log(oddEven(4));

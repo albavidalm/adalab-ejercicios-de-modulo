@@ -10,4 +10,4 @@ function handleTakeInfo(event) {
   wrote.innerHTML = letter;
 }
 
-input.addEventListener("keypress", handleTakeInfo);
+input.addEventListener("keyup", handleTakeInfo);
