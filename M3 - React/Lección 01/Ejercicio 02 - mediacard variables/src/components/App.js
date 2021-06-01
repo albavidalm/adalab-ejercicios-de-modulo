@@ -49,10 +49,8 @@ class App extends React.Component {
     );
 
     return (
-      <div className="App">
-        <div className="Cardcontainer">
-          {header} {text} {footer}
-        </div>
+      <div className="Cardcontainer">
+        {header} {text} {footer}
       </div>
     );
   }
