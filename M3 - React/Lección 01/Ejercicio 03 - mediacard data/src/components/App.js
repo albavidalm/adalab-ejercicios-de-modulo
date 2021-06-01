@@ -1,6 +1,5 @@
 /* eslint-disable no-useless-constructor */
 import "../stylesheets/App.css";
-import image from "../images/C34.jpg";
 import React from "react";
 
 class App extends React.Component {
