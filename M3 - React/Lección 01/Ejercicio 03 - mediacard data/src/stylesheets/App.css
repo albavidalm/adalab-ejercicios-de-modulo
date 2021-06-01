@@ -1,6 +1,6 @@
 .Cardcontainer {
   width: 540px;
-  height: 540px;
+  height: auto;
   background-color: white;
   margin: 0 auto;
   padding: 20px;
@@ -44,6 +44,15 @@
   color: lightgray;
   font-size: 26px;
 }
+
+.button {
+  border: none;
+  background-color: transparent;
+  color: lightgray;
+  font-size: 26px;
+  cursor: pointer;
+}
+
 .Heart {
   color: red;
 }
