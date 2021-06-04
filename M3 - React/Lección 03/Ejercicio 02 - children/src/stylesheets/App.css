@@ -1,0 +1,11 @@
+.container {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.page {
+  width: 50vw;
+  height: 100%;
+}
