@@ -1,0 +1,19 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textarea {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.none {
+  background-color: rgb(43, 43, 43);
+}
+
+.red {
+  background-color: red;
+}
