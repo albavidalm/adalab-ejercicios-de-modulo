@@ -9,7 +9,7 @@ class OnionHater extends React.Component {
   }
 
   handleTextArea(event) {
-    if (event.target.value.includes("cebolla")) {
+    if (event.target.value.toLowerCase().includes("cebolla")) {
       this.isHating = true;
       this.forceUpdate();
     } else {
