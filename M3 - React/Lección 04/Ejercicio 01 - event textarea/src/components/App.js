@@ -1,13 +1,9 @@
 /* eslint-disable no-useless-constructor */
-import React from "react";
-import "../stylesheets/App.css";
-import OnionHater from "onionhater";
-
+import OnionHater from "./OnionHater";
 function App() {
   return (
-    <div>
+    <div className="App">
       <OnionHater />
-      <Destiny />
     </div>
   );
 }
