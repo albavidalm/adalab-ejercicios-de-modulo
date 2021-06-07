@@ -6,7 +6,7 @@ class Destiny extends React.Component {
     super(props);
     //Para que sepa qué he seleccionado y qué imagen poner, es decir, para que pueda hacer el condicional es NECESARIO guardar el valor en una VARIABLE.
     //Para poder usar esta variable en todo el componente la declaro en el CONSTRUCTOR en lugar de hacerlo al declarar la función ya que en ese punto sólo la podría usar allí. La declaro y le doy como valor su primer valor (o el que queramos por defecto):
-    let citySelected = "Buenos Aires";
+    let citySelected = "Tokio"; //Qué hace? Da igual que esté o no declarada
     this.handleChange = this.handleChange.bind(this);
   }
 
