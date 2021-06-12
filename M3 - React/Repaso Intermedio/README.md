@@ -11,7 +11,7 @@ Para ello hemos tenido que crear dos componentes más:
 ·ClubList.js con la lista de clubes
 ·Club.js con cada card de cada club
 
-![Imagen1]/Users/AlbA/Docus/Adalab/Ejercicios/adalab-ejercicios-de-modulo/M3 - React/Repaso Intermedio/src/images/guia.png
+![Imagen1](https://raw.githubusercontent.com/albavidalm/adalab-ejercicios-de-modulo/master/M3%20-%20React/Repaso%20Intermedio/src/images/guia.png)
 
 **Built With**
 React
