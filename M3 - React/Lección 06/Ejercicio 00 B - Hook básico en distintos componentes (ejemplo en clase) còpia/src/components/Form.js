@@ -1,5 +1,4 @@
 import "../stylesheets/App.css";
-import React, { useState } from "react";
 import Input from "./Input";
 import Radio from "./Radio";
 

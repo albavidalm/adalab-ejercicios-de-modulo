@@ -1,5 +1,4 @@
 import "../stylesheets/App.css";
-import React, { useState } from "react";
 
 const Radio = (props) => {
   const handleInput = () => {
