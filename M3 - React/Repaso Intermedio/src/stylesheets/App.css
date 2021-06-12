@@ -39,6 +39,11 @@
 
 .members__list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.members__item {
+  width: 33%;
+  list-style: none;
 }
